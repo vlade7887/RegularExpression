@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test method</title>
+</head>
+<body>
+  <script>
+//     let testStr = "freeCodeCamp";
+//     let testRegex = /Code/;
+//     let result = testRegex.test(testStr);
+// console.log(result)
+
+//     let text = "The dogg chased the cat";
+//     let findText = /chased/;
+//     let result2 = findText.test(text)
+//     console.log(result2)
+
+//     let myString = "Hello, World!";
+// let myRegex = /Hello/;
+// let result = myRegex.test(myString);
+// console.log(result)
+
+
+
+
+/////////////////Match Literal Strings////////////////
+// let testStr = "Hello, my name is Kevin.";
+// let testRegex = /Kevin/;
+// testRegex.test(testStr);
+
+// let wrongRegex = /kevin/;
+// console.log(wrongRegex.test(testStr));
+
+
+// let waldoIsHiding = "Somewhere Waldo is hiding in this text.";
+// let waldoRegex = /Waldo/; // Change this line
+// let result = waldoRegex.test(waldoIsHiding);
+
+// console.log(result)
+
+////////////////////////////Different possibilites/////////
+// let petString = "James has a pet cat .";
+// let petRegex = /cat|cat|bird|fish/; // Change this line
+// let result = petRegex.test(petString);
+// console.log(result)
+
+
+
+
+/////////////////ignore case while matcing////////////////////
+
+// let myString = "freeCodeCamp";
+// let fccRegex = /frEECodeCamp/i; // Change this line
+// let result = fccRegex.test(myString);
+
+// console.log(result)
+
+
+/////////////////Extract Matches//////////////////////
+
+// let test = "Hello, World!".match(/Hello/);
+// console.log(test)
+// let ourStr = "Regular expressions";
+// let ourRegex = /expressions/;
+// console.log(ourStr.match(ourRegex));
+
+
+//////////////////Find More Than the First Match/////////////////////
+
+let testStr = "Repeat, Repeat, Repeat";
+let ourRegex = /Repeat/g;
+testStr.match(ourRegex);
+
+
+let twinkleStar = "Twinkle, twinkle, little star";
+let starRegex = /Twinkle/g; // Change this line
+let result = twinkleStar.match(starRegex); // Change this line
+
+
+
+
+
+
+
+  </script>
+</body>
+</html>
